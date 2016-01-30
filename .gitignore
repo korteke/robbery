@@ -7,6 +7,7 @@ src/main/java/twitter4j.properties
 /target/
 */target/*
 
+.classpath
 .metadata
 bin/
 tmp/
@@ -26,6 +27,3 @@ local.properties
 
 # Locally stored "Eclipse launch configurations"
 *.launch
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
