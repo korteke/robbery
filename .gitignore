@@ -1,0 +1,31 @@
+src/main/java/twitter4j.properties
+*.class
+*.jar
+*.war
+*.ear
+**/target/
+/target/
+*/target/*
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
