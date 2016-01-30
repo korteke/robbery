@@ -1,4 +1,5 @@
 src/main/java/twitter4j.properties
+twitter4j.properties
 *.class
 *.jar
 *.war

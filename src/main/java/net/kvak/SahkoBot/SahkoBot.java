@@ -27,7 +27,7 @@ public class SahkoBot {
 		
         try {
     		Status status = twitter.updateStatus("Yleissiirron hinnankorotus vuosikulutuksella: " + kwh + "kWh on Espoossa " + calculateRobbery(kwh, ROBBERY_PRICE_ESP, PRICE_ESP, ROBBERY_MONTHLY_ESP)
-    		+ "€/vuosi. Muualla suomessa "+calculateRobbery(kwh, ROBBERY_PRICE, PRICE, ROBBERY_MONTHLY)+"€/vuosi.");
+    		+ "€/vuosi. Muualla suomessa "+calculateRobbery(kwh, ROBBERY_PRICE, PRICE, ROBBERY_MONTHLY)+"€/vuosi. @CarunaSuomi #kohtuullista");
     		System.out.println("Posted tweet: " +status.getText() + " ID: " + status.getId());
 		} catch (Exception e) {
 			System.out.println(e);
